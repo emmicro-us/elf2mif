@@ -1,0 +1,20 @@
+language: cpp
+
+jobs:
+  include:
+    - os: linux
+      compiler: clang
+      script: ./build.sh
+    - os: linux
+      compiler: gcc
+      script: ./build.sh
+
+    - os: osx
+      compiler: clang
+      script: ./build.sh
+    - os: osx
+      compiler: gcc
+      script: ./build.sh
+
+    - os: windows
+      script: ./build_win64.sh
