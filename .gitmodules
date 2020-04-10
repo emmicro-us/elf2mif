@@ -1,0 +1,6 @@
+[submodule "cpp-optparse"]
+	path = cpp-optparse
+	url = ../cpp-optparse.git
+[submodule "elfio"]
+	path = elfio
+	url = ../ELFIO.git
