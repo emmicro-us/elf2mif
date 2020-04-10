@@ -12,13 +12,13 @@ jobs:
         provider: releases
         api_key:
           secure: A/YQpDtJ/G4gr8HycCJFf25THzC9IDy4UkmgMXsEkLg7BzjNgJw7+RstsE0KIjXkyyjHpkpA3O9RSMGZPezkyaqR3n1d5YJ5/71/t3WegTmCmgHVdc8KGYElydO39qNEILaqlqWpgRTqSoJ/DhQ2I8UGAmrsTe5+Pr5NsG6sqQWfd48EC2foCnrHlXFyrJ66tEA2UDdxU6vh/PCQEM/AueTaIgMUFRyC6huOxRZf4PIqCWsBwNWJsC6TWdXZzinR1Kp5g6wjgwnuyLMCVqr+ADJMJFuYaTcIfJP7CiYZo0MQPSDJvrEYjM1WyE9kBvDRqcIJJ3LuFQNp6xZDA+d5ZLjgWUrObzzoNAoszAN4ptaZ0CAXPiBDZ6ToHWaSePr5EtSyj9GYkAgvLR2MKIFz9K1Sj/bLJsl/Gh0RJAxK0A1256xh0Qa8u1FrXkYQkCcD40YXTyPj3HUAFelZUYBfSlmlBH9jDKoXoN9YHABaenahwvpKr668GnCnjzk14y1kSgc42LFkXZPU5zr8Wlo5FAcBGFraTQExwLhPsqWDIdVxnSxqunO3Djf5O/CnADq1UBSfCTWdpBWxjLh30F9W1JGi28jY7ND1eK4iBgSuZR9aFCJu7eZ09hXJR0cOICm/B0cmciHrD2HtRtcC4cLsrdp+XM+I4f5IpvZqbcMV4r0=
-          draft: true
-          skip_cleanup: true
-          file_glob: true
-          file: artifacts/*
-          on:
-            tags: true
-            repo: emmicro-us/elf2mif
+        draft: true
+        skip_cleanup: true
+        file_glob: true
+        file: artifacts/*
+        on:
+          tags: true
+          repo: emmicro-us/elf2mif
 
     - os: osx
       compiler: clang
@@ -33,10 +33,10 @@ jobs:
         provider: releases
         api_key:
           secure: A/YQpDtJ/G4gr8HycCJFf25THzC9IDy4UkmgMXsEkLg7BzjNgJw7+RstsE0KIjXkyyjHpkpA3O9RSMGZPezkyaqR3n1d5YJ5/71/t3WegTmCmgHVdc8KGYElydO39qNEILaqlqWpgRTqSoJ/DhQ2I8UGAmrsTe5+Pr5NsG6sqQWfd48EC2foCnrHlXFyrJ66tEA2UDdxU6vh/PCQEM/AueTaIgMUFRyC6huOxRZf4PIqCWsBwNWJsC6TWdXZzinR1Kp5g6wjgwnuyLMCVqr+ADJMJFuYaTcIfJP7CiYZo0MQPSDJvrEYjM1WyE9kBvDRqcIJJ3LuFQNp6xZDA+d5ZLjgWUrObzzoNAoszAN4ptaZ0CAXPiBDZ6ToHWaSePr5EtSyj9GYkAgvLR2MKIFz9K1Sj/bLJsl/Gh0RJAxK0A1256xh0Qa8u1FrXkYQkCcD40YXTyPj3HUAFelZUYBfSlmlBH9jDKoXoN9YHABaenahwvpKr668GnCnjzk14y1kSgc42LFkXZPU5zr8Wlo5FAcBGFraTQExwLhPsqWDIdVxnSxqunO3Djf5O/CnADq1UBSfCTWdpBWxjLh30F9W1JGi28jY7ND1eK4iBgSuZR9aFCJu7eZ09hXJR0cOICm/B0cmciHrD2HtRtcC4cLsrdp+XM+I4f5IpvZqbcMV4r0=
-          draft: true
-          skip_cleanup: true
-          file_glob: true
-          file: artifacts/*
-          on:
-            tags: true
-            repo: emmicro-us/elf2mif
+        draft: true
+        skip_cleanup: true
+        file_glob: true
+        file: artifacts/*
+        on:
+          tags: true
+          repo: emmicro-us/elf2mif
